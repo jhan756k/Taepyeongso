@@ -1,8 +1,4 @@
 import openpyxl, os, librosa
-import numpy as np
-DELTA_T = 0.05
-
-# record_time = (datetime.now().strftime('%H:%M:%S.%f'))[:-3]
 
 wb = openpyxl.load_workbook('data_automation\data.xlsx')
 ex = wb[r'분석 데이터']
@@ -20,13 +16,24 @@ for file in sounds:
             y, sr = librosa.load(file_path, sr=44100)  
             inst_time = ex.cell(row=ro, column=1).value
             
-            fund_amp = 
-            fund_freq
+            time_index = int(inst_time * sr)
+            frame_size = 2048
+            hop_length = 512
+
+            # Calculate the STFT (Short-Time Fourier Transform)
+            D = librosa.stft(y, n_fft=frame_size, hop_length=hop_length)
+
+            magnitude = librosa.amplitude_to_db(abs(D))
+            pitches = librosa.yin(y, fmin=75, fmax=500, frame_length=frame_size, hop_length=hop_length)
+
+            # Find the amp and freq at the specified time index
+            fund_amp = max(magnitude[:, time_index // hop_length])
+            fund_freq = max(pitches)
 
             
             # ex.cell(row=ro, column=2).value = str(sr) --> parameter of image
-            ex.cell(row=ro, column=3).value = str(amp)
-            ex.cell(row=ro, column=4).value = fre_str
+            ex.cell(row=ro, column=3).value = fund_amp
+            ex.cell(row=ro, column=4).value = fund_freq
             break
 
 wb.save('data_automation\saved.xlsx')

@@ -1,33 +1,26 @@
 #include <Wire.h>
 #include <Adafruit_BMP085.h>
-#define seaLevelPressure_hPa 1013.25
 
 Adafruit_BMP085 bmp;
-int32_t prev = 0, cur;
-bool first = true;
-unsigned long time;
+int32_t prev=0, cur;
+double DELTA_T = 0.9, time=0.0;
 
 void setup() {
   Serial.begin(9600);
   if (!bmp.begin()) {
-	Serial.println("No sensor");
+	  Serial.println("No sensor");
   }
 }
   
 void loop() {
-  if (first) {
-    Serial.println(" <-- Start time");
-    first = !first;
-  }
-
   Serial.print("Pressure = ");
   cur = bmp.readPressure();
-  time = millis();
   Serial.println(String(cur) + " Pa");
   Serial.print("Difference : " + String(cur-prev));
   Serial.println(", Time : " + String(time));
   prev = cur;
+  time+=DELTA_T;
   
   Serial.println();
-  delay(1000);
+  delay(DELTA_T*1000);
 }
