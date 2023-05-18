@@ -3,7 +3,7 @@
 
 Adafruit_BMP085 bmp;
 int32_t prev = 0, cur;
-double DELTA_T = 0.1, time = 0.0;
+double DELTA_T = 1, time = 0.0;
 
 void setup() {
   Serial.begin(9600);
@@ -13,11 +13,9 @@ void setup() {
 }
 
 void loop() {
-  Serial.print("Pressure = ");
-  cur = bmp.readPressure();
-  Serial.println(String(cur) + " Pa");
-  Serial.print("Difference : " + String(cur - prev));
-  Serial.println(", Time : " + String(time));
+  Serial.print(time);
+  Serial.println(bmp.readPressure());
+  Serial.print(cur-prev);
   prev = cur;
   time += DELTA_T;
 

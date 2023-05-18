@@ -3,11 +3,11 @@ import numpy as np
 import wave
 
 # Open the audio file and extract its properties
-audio_file = wave.open("simple.wav", "rb")
+audio_file = wave.open(r"C:\Users\Jooney Han\Desktop\과학전람회\data\sound\15-길이-임계.wav", "rb")
 sample_rate = audio_file.getframerate()
 num_frames = audio_file.getnframes()
 duration = num_frames / float(sample_rate)
-time_limit = 0.05
+time_limit = 13
 
 # Read the audio data into a numpy array
 audio_data = np.frombuffer(audio_file.readframes(num_frames), dtype=np.int16)

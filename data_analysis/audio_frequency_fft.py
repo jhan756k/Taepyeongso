@@ -3,7 +3,7 @@ import librosa.display
 import matplotlib.pyplot as plt  
 import numpy as np
 
-audio = "tp.wav"  
+audio = "1.m4a"  
 # y, sr = librosa.load(audio, sr=44100) # 모든 데이터 0~1 값으로 정규화
 # sin graph
 N = 512

@@ -1,0 +1,262 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2023.05.18 23:22:41 =~=~=~=~=~=~=~=~=~=~=~=
+9
+Pressure = 95040 Pa
+
+Pressure = 95038 Pa
+Difference : 1, Time : 62.10
+
+Pressure = 95038 Pa
+Difference : 0, Time : 62.20
+
+Pressure = 95040 Pa
+DPressure = 95038 Pa
+Difference : 1, Time : 62.10
+
+Pressure = 95038 Pa
+Difference : 0, Time : 62.20
+
+Pressure = 95040 Pa
+DPressure = 94961 Pa
+Difference : 94961, Time : 0.00
+
+Pressure = 94984 Pa
+Difference : 23, Time : 0.10
+
+Pressure = 94994 Pa
+Difference : 10, Time : 0.20
+
+Pressure = 95023 Pa
+Difference : 29, Time : 0.30
+
+Pressure = 95087 Pa
+Difference : 64, Time : 0.40
+
+Pressure = 97358 Pa
+Difference : 2271, Time : 0.50
+
+Pressure = 99537 Pa
+Difference : 2179, Time : 0.60
+
+Pressure = 100391 Pa
+Difference : 854, Time : 0.70
+
+Pressure = 101267 Pa
+Difference : 876, Time : 0.80
+
+Pressure = 101949 Pa
+Difference : 682, Time : 0.90
+
+Pressure = 102807 Pa
+Difference : 858, Time : 1.00
+
+Pressure = 103467 Pa
+Difference : 660, Time : 1.10
+
+Pressure = 104497 Pa
+Difference : 1030, Time : 1.20
+
+Pressure = 105272 Pa
+Difference : 775, Time : 1.30
+
+Pressure = 106087 Pa
+Difference : 815, Time : 1.40
+
+Pressure = 105890 Pa
+Difference : -197, Time : 1.50
+
+Pressure = 105820 Pa
+Difference : -70, Time : 1.60
+
+Pressure = 105643 Pa
+Difference : -177, Time : 1.70
+
+Pressure = 105554 Pa
+Difference : -89, Time : 1.80
+
+Pressure = 105382 Pa
+Difference : -172, Time : 1.90
+
+Pressure = 104972 Pa
+Difference : -410, Time : 2.00
+
+Pressure = 104973 Pa
+Difference : 1, Time : 2.10
+
+Pressure = 105005 Pa
+Difference : 32, Time : 2.20
+
+Pressure = 105918 Pa
+Difference : 913, Time : 2.30
+
+Pressure = 98413 Pa
+Difference : -7505, Time : 2.40
+
+Pressure = 95017 Pa
+Difference : -3396, Time : 2.50
+
+Pressure = 95030 Pa
+Difference : 13, Time : 2.60
+
+Pressure = 95003 Pa
+Difference : -27, Time : 2.70
+
+Pressure = 94977 Pa
+Difference : -26, Time : 2.80
+
+Pressure = 94950 Pa
+Difference : -27, Time : 2.90
+
+Pressure = 94980 Pa
+Difference : 30, Time : 3.00
+
+Pressure = 94984 Pa
+Difference : 4, Time : 3.10
+
+Pressure = 94996 Pa
+Difference : 12, Time : 3.20
+
+Pressure = 95028 Pa
+Difference : 32, Time : 3.30
+
+Pressure = 95838 Pa
+Difference : 810, Time : 3.40
+
+Pressure = 98031 Pa
+Difference : 2193, Time : 3.50
+
+Pressure = 98901 Pa
+Difference : 870, Time : 3.60
+
+Pressure = 100025 Pa
+Difference : 1124, Time : 3.70
+
+Pressure = 101455 Pa
+Difference : 1430, Time : 3.80
+
+Pressure = 102453 Pa
+Difference : 998, Time : 3.90
+
+Pressure = 103555 Pa
+Difference : 1102, Time : 4.00
+
+Pressure = 104583 Pa
+Difference : 1028, Time : 4.10
+
+Pressure = 105032 Pa
+Difference : 449, Time : 4.20
+
+Pressure = 105230 Pa
+Difference : 198, Time : 4.30
+
+Pressure = 105220 Pa
+Difference : -10, Time : 4.40
+
+Pressure = 105255 Pa
+Difference : 35, Time : 4.50
+
+Pressure = 105140 Pa
+Difference : -115, Time : 4.60
+
+Pressure = 105052 Pa
+Difference : -88, Time : 4.70
+
+Pressure = 105004 Pa
+Difference : -48, Time : 4.80
+
+Pressure = 105035 Pa
+Difference : 31, Time : 4.90
+
+Pressure = 104511 Pa
+Difference : -524, Time : 5.00
+
+Pressure = 105642 Pa
+Difference : 1131, Time : 5.10
+
+Pressure = 99961 Pa
+Difference : -5681, Time : 5.20
+
+Pressure = 95033 Pa
+Difference : -4928, Time : 5.30
+
+Pressure = 95033 Pa
+Difference : 0, Time : 5.40
+
+Pressure = 95035 Pa
+Difference : 2, Time : 5.50
+
+Pressure = 95035 Pa
+Difference : 0, Time : 5.60
+
+Pressure = 95038 Pa
+Difference : 3, Time : 5.70
+
+Pressure = 95040 Pa
+Difference : 2, Time : 5.80
+
+Pressure = 95037 Pa
+Difference : -3, Time : 5.90
+
+Pressure = 95035 Pa
+Difference : -2, Time : 6.00
+
+Pressure = 95031 Pa
+Difference : -4, Time : 6.10
+
+Pressure = 95033 Pa
+Difference : 2, Time : 6.20
+
+Pressure = 95037 Pa
+Difference : 4, Time : 6.30
+
+Pressure = 95028 Pa
+Difference : -9, Time : 6.40
+
+Pressure = 95030 Pa
+Difference : 2, Time : 6.50
+
+Pressure = 95032 Pa
+Difference : 2, Time : 6.60
+
+Pressure = 95037 Pa
+Difference : 5, Time : 6.70
+
+Pressure = 95033 Pa
+Difference : -4, Time : 6.80
+
+Pressure = 95027 Pa
+Difference : -6, Time : 6.90
+
+Pressure = 95035 Pa
+Difference : 8, Time : 7.00
+
+Pressure = 95031 Pa
+Difference : -4, Time : 7.10
+
+Pressure = 95030 Pa
+Difference : -1, Time : 7.20
+
+Pressure = 95037 Pa
+Difference : 7, Time : 7.30
+
+Pressure = 95036 Pa
+Difference : -1, Time : 7.40
+
+Pressure = 95033 Pa
+Difference : -3, Time : 7.50
+
+Pressure = 95034 Pa
+Difference : 1, Time : 7.60
+
+Pressure = 95027 Pa
+Difference : -7, Time : 7.70
+
+Pressure = 95034 Pa
+Difference : 7, Time : 7.80
+
+Pressure = 95033 Pa
+Difference : -1, Time : 7.90
+
+Pressure = 95036 Pa
+Difference : 3, Time : 8.00
+
+Pressure = 9
