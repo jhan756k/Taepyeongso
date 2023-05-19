@@ -52,7 +52,7 @@ def plot_wav_graph(wav_file, cluster_threshold=5):
     plt.show()
 
 # Provide the path to your .wav file
-wav_file_path = '옥타브변경.wav'
+wav_file_path = r'C:\Users\Jooney Han\Desktop\과학전람회\data\sound\20-길이-2.wav'
 
 # Set the cluster threshold (adjust as needed)
 cluster_threshold = 5
