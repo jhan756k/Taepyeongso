@@ -2,7 +2,8 @@
 #include <Adafruit_BMP085.h>
 
 Adafruit_BMP085 bmp;
-int32_t prev = 0, cur;
+int32_t prev = 0;
+double pas, atm;
 double DELTA_T = 0.1, time = 0.0;
 
 void setup() {
@@ -13,12 +14,13 @@ void setup() {
 }
 
 void loop() {
-  Serial.print("Pressure = ");
-  cur = bmp.readPressure();
-  Serial.println(String(cur) + " Pa");
-  Serial.print("Difference : " + String(cur - prev));
+  pas = bmp.readPressure();
+  atm = pas/101325.0;
+  Serial.print(String(pas) + " Pa, ");
+  Serial.println(String(atm) + " atm");
+  Serial.print("Difference : " + String(pas - prev));
   Serial.println(", Time : " + String(time));
-  prev = cur;
+  prev = pas;
   time += DELTA_T;
 
   Serial.println();
