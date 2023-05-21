@@ -3,14 +3,14 @@ import numpy as np
 import wave
 
 # Open the audio file and extract its properties
-audio_file = wave.open(r"C:\Users\Jooney Han\Desktop\과학전람회\충음실 데이터\자름_음원\20안자름.wav", "rb")
+audio_file = wave.open(r"파일위치", "rb")
 sample_rate = audio_file.getframerate()
 num_frames = audio_file.getnframes()
 duration = num_frames / float(sample_rate)
 
 # Define the start time and end time for plotting
-start_time = 1.5  # Modify the start time as desired
-end_time = 4
+start_time = 0  # Modify the start time as desired
+end_time = 5
 
 # Calculate the corresponding start and end frame indices
 start_frame = int(start_time * sample_rate)

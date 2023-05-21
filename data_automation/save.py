@@ -7,15 +7,12 @@ sounds = os.listdir('data_automation\sound_files')
 
 
 for ro in range(2, 50):
-
     if ex.cell(row=ro, column=3).value != None:
         continue
-
     elif ex.cell(row=ro, column=1).value == None:
         break
-
     else:
-        file_path = r'C:\Users\Jooney Han\Desktop\과학전람회\data\sound\15-길이-임계.wav'
+        file_path = r'음원 파일.wav'
         y, sr = librosa.load(file_path, sr=44100)  
         inst_time = ex.cell(row=ro, column=1).value
         print(inst_time)
